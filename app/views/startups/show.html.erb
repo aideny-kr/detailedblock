@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+<div class="row">
+
+    <article class="span12">
+      <h2><%= @startup.company_name %></h2>
+    </article>
+  <div class="span8">
+
+    <p>
+      <h4>Description</h4>
+      <hr/>
+      <div class="mini-layout"><%= @startup.description %></div>
+    </p>
+    <br/>
+    <p>
+      <h4>Milestone:</h4>
+      <hr/>
+      <%= @startup.milestone %>
+    </p>
+    <br/>
+    <p>
+      <strong>Funding:</strong>
+      <%= @startup.funding %>
+    </p>
+    <br/>
+    <p>
+      <strong>Press:</strong>
+      <%= @startup.press %>
+    </p>
+
+  </div>
+  <div class="span4">
+    <p>
+      <strong>Year founded:</strong>
+      <%= @startup.year_founded %>
+    </p>
+
+    <p>
+      <strong>Category:</strong>
+      <%= @startup.category %>
+    </p>
+
+    <p>
+      <strong>People:</strong>
+      <%= @startup.people %>
+    </p>
+
+    <p>
+      <strong>Advisor:</strong>
+      <%= @startup.advisor %>
+    </p>
+  </div>
+</div>
+<%= link_to 'Edit', edit_startup_path(@startup) %> |
+<%= link_to 'Back', startups_path %>

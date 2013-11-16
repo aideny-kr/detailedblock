@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  company_name: MyString
+  year_founded: 1
+  description: MyText
+  milestone: MyString
+  funding: MyString
+  press: MyString
+  category: MyString
+  people: MyString
+  advisor: MyString
+
+two:
+  company_name: MyString
+  year_founded: 1
+  description: MyText
+  milestone: MyString
+  funding: MyString
+  press: MyString
+  category: MyString
+  people: MyString
+  advisor: MyString

@@ -1,0 +1,19 @@
+<%= simple_form_for(@startup) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :company_name %>
+    <%= f.input :year_founded %>
+    <%= f.input :description %>
+    <%= f.input :milestone %>
+    <%= f.input :funding %>
+    <%= f.input :press %>
+    <%= f.input :category %>
+    <%= f.input :people %>
+    <%= f.input :advisor %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
